@@ -146,3 +146,8 @@ secrets.json
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+llama/outputs
+t5-vi-instruct-hf
+t5-vi-seq2seq-hf
+

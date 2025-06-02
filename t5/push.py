@@ -5,7 +5,7 @@ from huggingface_hub import HfApi
 def push_trained_model_to_hub():
     # 1. Configuration
     LOCAL_MODEL_PATH = "./t5-vi-seq2seq-hf/final-model"  # Path to your saved model
-    HF_REPO_NAME = "kienhoang123/Poem_Analysis_Seq2Seq_VN"  # Change to your username
+    HF_REPO_NAME = "kienhoang123/ViT5_Poem_Analysis"  # Change to your username
     DATASET_NAME = "kienhoang123/Vietnamese_Poem_Analysis_VN"
     MODEL_NAME = "t5-small"  # Base model you used
     

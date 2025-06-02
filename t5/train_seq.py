@@ -15,7 +15,7 @@ def main():
     print(f"[INFO] Using device: {device}")
 
     # 2. Configurations
-    MODEL_NAME     = "t5-small"                                   # or your preferred Seq2Seq checkpoint
+    MODEL_NAME     = "VietAI/vit5-base"                                   # or your preferred Seq2Seq checkpoint
     DATASET_NAME   = "kienhoang123/Vietnamese_Poem_Analysis_VN"
     OUTPUT_DIR     = "./t5-vi-seq2seq-hf"
     BATCH_SIZE     = 8
